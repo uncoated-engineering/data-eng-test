@@ -1,0 +1,398 @@
+[2025-05-10 10:38:03] [INFO] [__name__] 🔁 Loading raw data...
+[2025-05-10 10:38:04] [INFO] [__name__] ⚠️  Skipping already ingested olist_customers_dataset for customers
+[2025-05-10 10:38:04] [INFO] [__name__] ⚠️  Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-10 10:38:04] [INFO] [__name__] ⚠️  Skipping already ingested olist_orders_dataset for orders
+[2025-05-10 10:38:04] [INFO] [__name__] 🔗 Building silver dataset...
+[2025-05-10 10:38:06] [INFO] [__name__] 📊 Computing gold indicators...
+[2025-05-10 10:38:07] [INFO] [__name__] ✅ Pipeline completed.
+[2025-05-10 10:38:29] [INFO] [__main__] 🔁 Loading raw data...
+[2025-05-10 10:38:30] [INFO] [__bronze__] ⚠️  Skipping already ingested olist_customers_dataset for customers
+[2025-05-10 10:38:30] [INFO] [__bronze__] ⚠️  Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-10 10:38:30] [INFO] [__bronze__] ⚠️  Skipping already ingested olist_orders_dataset for orders
+[2025-05-10 10:38:30] [INFO] [__main__] 🔗 Building silver dataset...
+[2025-05-10 10:38:32] [INFO] [__main__] 📊 Computing gold indicators...
+[2025-05-10 10:38:33] [INFO] [__main__] ✅ Pipeline completed.
+[2025-05-14 14:09:54] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:09:55] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:09:55] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:09:55] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:09:55] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:09:57] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 14:09:58] [INFO] [__main__] Pipeline completed.
+[2025-05-14 14:11:26] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:11:26] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:11:26] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:11:26] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:11:26] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:11:29] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 14:11:29] [INFO] [__main__] Pipeline completed.
+[2025-05-14 14:16:24] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:16:25] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:16:25] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:16:25] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:16:25] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:16:27] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 14:16:28] [INFO] [__main__] Pipeline completed.
+[2025-05-14 14:17:26] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:17:27] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:17:27] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:17:27] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:17:27] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:17:37] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:17:38] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:17:38] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:17:38] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:17:38] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:17:38] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 14:17:39] [INFO] [etl.silver_layer_transformer] silver layer ready with columnn {merged.columns}
+[2025-05-14 14:17:40] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 14:17:41] [INFO] [__main__] Pipeline completed.
+[2025-05-14 14:19:13] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:19:14] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:19:14] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:19:14] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:19:14] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:19:14] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 14:19:15] [INFO] [etl.silver_layer_transformer] silver layer ready with columnn {merged.columns}
+[2025-05-14 14:19:16] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 14:19:17] [INFO] [__main__] Pipeline completed.
+[2025-05-14 14:20:30] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:20:30] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:20:30] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:20:30] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:20:30] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:20:31] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 14:20:32] [INFO] [etl.silver_layer_transformer] silver layer ready with columnn {merged.columns}
+[2025-05-14 14:20:43] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:20:44] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:20:44] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:20:44] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:20:44] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:20:44] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 14:20:45] [INFO] [etl.silver_layer_transformer] silver layer ready with columnn {merged.columns}
+[2025-05-14 14:20:46] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 14:20:47] [INFO] [__main__] Pipeline completed.
+[2025-05-14 14:20:58] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:20:59] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:20:59] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:20:59] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:20:59] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:20:59] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 14:21:01] [INFO] [etl.silver_layer_transformer] silver layer ready with columnn Index(['order_id', 'payment_sequential', 'payment_type',
+       'payment_installments', 'payment_value', 'customer_id', 'order_status',
+       'order_purchase_timestamp', 'order_approved_at',
+       'order_delivered_carrier_date', 'order_delivered_customer_date',
+       'order_estimated_delivery_date', 'customer_unique_id',
+       'customer_zip_code_prefix', 'customer_city', 'customer_state',
+       'order_month', 'adjusted_payment'],
+      dtype='object')
+[2025-05-14 14:21:02] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 14:21:02] [INFO] [__main__] Pipeline completed.
+[2025-05-14 14:21:08] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:21:09] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:21:09] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:21:09] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:21:09] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:21:09] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 14:21:10] [INFO] [etl.silver_layer_transformer] silver layer ready with columnn order_id                                 object
+payment_sequential                        int64
+payment_type                             object
+payment_installments                      int64
+payment_value                           float64
+customer_id                              object
+order_status                             object
+order_purchase_timestamp         datetime64[ns]
+order_approved_at                        object
+order_delivered_carrier_date             object
+order_delivered_customer_date            object
+order_estimated_delivery_date            object
+customer_unique_id                       object
+customer_zip_code_prefix                  int64
+customer_city                            object
+customer_state                           object
+order_month                              object
+adjusted_payment                        float64
+dtype: object
+[2025-05-14 14:21:11] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 14:21:12] [INFO] [__main__] Pipeline completed.
+[2025-05-14 14:23:25] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:23:26] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:23:26] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:23:26] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:23:26] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:23:26] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 14:23:28] [INFO] [etl.silver_layer_transformer] silver layer ready with columnn order_id                                 object
+payment_sequential                        int64
+payment_type                             object
+payment_installments                      int64
+payment_value                           float64
+customer_id                              object
+order_status                             object
+order_purchase_timestamp         datetime64[ns]
+order_approved_at                        object
+order_delivered_carrier_date             object
+order_delivered_customer_date            object
+order_estimated_delivery_date            object
+customer_unique_id                       object
+customer_zip_code_prefix                  int64
+customer_city                            object
+customer_state                           object
+order_month                              object
+adjusted_payment                        float64
+dtype: object
+[2025-05-14 14:23:28] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 14:23:29] [INFO] [__main__] Pipeline completed.
+[2025-05-14 14:27:09] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:27:10] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:27:10] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:27:10] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:27:10] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:27:10] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 14:27:11] [INFO] [etl.silver_layer_transformer] silver layer ready with columnn order_id                                 object
+payment_sequential                        int64
+payment_type                             object
+payment_installments                      int64
+payment_value                           float64
+customer_id                              object
+order_status                             object
+order_purchase_timestamp         datetime64[ns]
+order_approved_at                        object
+order_delivered_carrier_date             object
+order_delivered_customer_date            object
+order_estimated_delivery_date            object
+customer_unique_id                       object
+customer_zip_code_prefix                  int64
+customer_city                            object
+customer_state                           object
+order_month                              object
+adjusted_payment                        float64
+dtype: object
+[2025-05-14 14:27:12] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 14:28:28] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:28:29] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:28:29] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:28:29] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:28:29] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:28:29] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 14:28:31] [INFO] [etl.silver_layer_transformer] silver layer ready with columnn order_id                                 object
+payment_sequential                        int64
+payment_type                             object
+payment_installments                      int64
+payment_value                           float64
+customer_id                              object
+order_status                             object
+order_purchase_timestamp         datetime64[ns]
+order_approved_at                        object
+order_delivered_carrier_date             object
+order_delivered_customer_date            object
+order_estimated_delivery_date            object
+customer_unique_id                       object
+customer_zip_code_prefix                  int64
+customer_city                            object
+customer_state                           object
+order_month                              object
+adjusted_payment                        float64
+dtype: object
+[2025-05-14 14:28:31] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 14:28:53] [INFO] [__main__] Loading raw data...
+[2025-05-14 14:28:54] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 14:28:54] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 14:28:54] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 14:28:54] [INFO] [__main__] Building silver dataset...
+[2025-05-14 14:28:55] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 14:28:56] [INFO] [etl.silver_layer_transformer] silver layer ready with columnn order_id                                 object
+payment_sequential                        int64
+payment_type                             object
+payment_installments                      int64
+payment_value                           float64
+customer_id                              object
+order_status                             object
+order_purchase_timestamp         datetime64[ns]
+order_approved_at                        object
+order_delivered_carrier_date             object
+order_delivered_customer_date            object
+order_estimated_delivery_date            object
+customer_unique_id                       object
+customer_zip_code_prefix                  int64
+customer_city                            object
+customer_state                           object
+order_month                              object
+adjusted_payment                        float64
+dtype: object
+[2025-05-14 14:28:57] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 15:03:31] [INFO] [__main__] Loading raw data...
+[2025-05-14 15:03:32] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 15:03:32] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 15:03:32] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 15:03:32] [INFO] [__main__] Building silver dataset...
+[2025-05-14 15:03:32] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 15:03:34] [INFO] [etl.silver_layer_transformer] silver layer ready with columnn order_id                                 object
+payment_sequential                        int64
+payment_type                             object
+payment_installments                      int64
+payment_value                           float64
+customer_id                              object
+order_status                             object
+order_purchase_timestamp         datetime64[ns]
+order_approved_at                        object
+order_delivered_carrier_date             object
+order_delivered_customer_date            object
+order_estimated_delivery_date            object
+customer_unique_id                       object
+customer_zip_code_prefix                  int64
+customer_city                            object
+customer_state                           object
+order_month                              object
+adjusted_payment                        float64
+dtype: object
+[2025-05-14 15:03:48] [INFO] [__main__] Loading raw data...
+[2025-05-14 15:03:49] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 15:03:49] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 15:03:49] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 15:03:49] [INFO] [__main__] Building silver dataset...
+[2025-05-14 15:03:49] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 15:03:51] [INFO] [etl.silver_layer_transformer] silver layer ready with columnn order_id                                 object
+payment_sequential                        int64
+payment_type                             object
+payment_installments                      int64
+payment_value                           float64
+customer_id                              object
+order_status                             object
+order_purchase_timestamp         datetime64[ns]
+order_approved_at                        object
+order_delivered_carrier_date             object
+order_delivered_customer_date            object
+order_estimated_delivery_date            object
+customer_unique_id                       object
+customer_zip_code_prefix                  int64
+customer_city                            object
+customer_state                           object
+order_month                              object
+adjusted_payment                        float64
+dtype: object
+[2025-05-14 15:03:52] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 15:03:53] [INFO] [__main__] Pipeline completed.
+[2025-05-14 15:05:08] [INFO] [__main__] Loading raw data...
+[2025-05-14 15:05:09] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 15:05:09] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 15:05:09] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 15:05:09] [INFO] [__main__] Building silver dataset...
+[2025-05-14 15:05:10] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 15:05:11] [INFO] [etl.silver_layer_transformer] silver layer ready with columnn order_id                                 object
+payment_sequential                        int64
+payment_type                             object
+payment_installments                      int64
+payment_value                           float64
+customer_id                              object
+order_status                             object
+order_purchase_timestamp         datetime64[ns]
+order_approved_at                        object
+order_delivered_carrier_date             object
+order_delivered_customer_date            object
+order_estimated_delivery_date            object
+customer_unique_id                       object
+customer_zip_code_prefix                  int64
+customer_city                            object
+customer_state                           object
+order_month                              object
+adjusted_payment                        float64
+dtype: object
+[2025-05-14 15:05:12] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 15:05:14] [INFO] [__main__] Pipeline completed.
+[2025-05-14 15:05:51] [INFO] [__main__] Loading raw data...
+[2025-05-14 15:05:52] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 15:05:52] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 15:05:52] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 15:05:52] [INFO] [__main__] Building silver dataset...
+[2025-05-14 15:05:53] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 15:05:54] [INFO] [etl.silver_layer_transformer] silver layer ready with shape (103886, 18)
+[2025-05-14 15:05:55] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 15:05:57] [INFO] [__main__] Pipeline completed.
+[2025-05-14 15:07:25] [INFO] [__main__] Loading raw data...
+[2025-05-14 15:07:27] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 15:07:27] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 15:07:27] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 15:07:27] [INFO] [__main__] Building silver dataset...
+[2025-05-14 15:07:28] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 15:07:30] [INFO] [etl.silver_layer_transformer] silver layer ready with shape (103886, 18)
+[2025-05-14 15:07:31] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 15:07:33] [INFO] [__main__] Pipeline completed.
+[2025-05-14 15:11:01] [INFO] [__main__] Loading raw data...
+[2025-05-14 15:11:02] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 15:11:02] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 15:11:02] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 15:11:02] [INFO] [__main__] Building silver dataset...
+[2025-05-14 15:11:02] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 15:11:04] [INFO] [etl.silver_layer_transformer] silver layer ready with shape (103886, 18)
+[2025-05-14 15:11:05] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 15:11:06] [INFO] [__main__] Pipeline completed.
+[2025-05-14 15:17:19] [INFO] [__main__] Loading raw data...
+[2025-05-14 15:17:20] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 15:17:20] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 15:17:20] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 15:17:20] [INFO] [__main__] Building silver dataset...
+[2025-05-14 15:17:20] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 15:17:25] [INFO] [etl.silver_layer_transformer] silver layer ready with shape (103886, 18)
+[2025-05-14 15:17:26] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 15:17:28] [INFO] [__main__] Pipeline completed.
+[2025-05-14 15:19:03] [INFO] [__main__] Loading raw data...
+[2025-05-14 15:19:04] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 15:19:04] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 15:19:04] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 15:19:04] [INFO] [__main__] Building silver dataset...
+[2025-05-14 15:19:05] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 15:19:10] [INFO] [etl.silver_layer_transformer] silver layer ready with shape (103886, 18)
+[2025-05-14 15:19:12] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 15:19:14] [INFO] [__main__] Pipeline completed.
+[2025-05-14 15:20:12] [INFO] [__main__] Loading raw data...
+[2025-05-14 15:20:13] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 15:20:13] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 15:20:13] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 15:20:13] [INFO] [__main__] Building silver dataset...
+[2025-05-14 15:20:14] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 15:20:15] [INFO] [etl.silver_layer_transformer] silver layer ready with shape (103886, 18)
+[2025-05-14 15:20:16] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 15:20:17] [INFO] [__main__] Pipeline completed.
+[2025-05-14 15:20:31] [INFO] [__main__] Loading raw data...
+[2025-05-14 15:20:32] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 15:20:32] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 15:20:32] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 15:20:32] [INFO] [__main__] Building silver dataset...
+[2025-05-14 15:20:32] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 15:20:34] [INFO] [etl.silver_layer_transformer] silver layer ready with shape (103886, 18)
+[2025-05-14 15:20:35] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 15:20:36] [INFO] [__main__] Pipeline completed.
+[2025-05-14 15:23:34] [INFO] [__main__] Loading raw data...
+[2025-05-14 15:23:35] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 15:23:35] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 15:23:35] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 15:23:35] [INFO] [__main__] Building silver dataset...
+[2025-05-14 15:23:36] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 15:23:40] [INFO] [etl.silver_layer_transformer] silver layer ready with shape (103886, 18)
+[2025-05-14 15:23:41] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 15:23:42] [INFO] [__main__] Pipeline completed.
+[2025-05-14 15:27:52] [INFO] [__main__] Loading raw data...
+[2025-05-14 15:27:53] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 15:27:53] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 15:27:53] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 15:27:53] [INFO] [__main__] Building silver dataset...
+[2025-05-14 15:27:54] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 15:27:55] [INFO] [etl.silver_layer_transformer] silver layer ready with shape (103886, 18)
+[2025-05-14 15:27:56] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 15:27:57] [INFO] [__main__] Pipeline completed.
+[2025-05-14 15:28:39] [INFO] [__main__] Loading raw data...
+[2025-05-14 15:28:40] [INFO] [etl.bronze_layer] Skipping already ingested olist_customers_dataset for customers
+[2025-05-14 15:28:40] [INFO] [etl.bronze_layer] Skipping already ingested olist_order_payments_dataset for order_payments
+[2025-05-14 15:28:40] [INFO] [etl.bronze_layer] Skipping already ingested olist_orders_dataset for orders
+[2025-05-14 15:28:40] [INFO] [__main__] Building silver dataset...
+[2025-05-14 15:28:41] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (103886, 16)
+[2025-05-14 15:28:42] [INFO] [etl.silver_layer_transformer] silver layer ready with shape (103886, 18)
+[2025-05-14 15:28:43] [INFO] [__main__] Computing gold indicators...
+[2025-05-14 15:28:45] [INFO] [__main__] Pipeline completed.
+[2025-05-14 15:36:14] [INFO] [etl.bronze_layer] Saved bronze for orders (olist_orders_dataset)
+[2025-05-14 15:38:43] [INFO] [etl.bronze_layer] Saved bronze for orders (olist_orders_dataset)
+[2025-05-14 15:38:43] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (1, 7)
+[2025-05-14 15:38:43] [INFO] [etl.silver_layer_transformer] silver layer ready with shape (1, 9)
+[2025-05-14 15:39:00] [INFO] [etl.bronze_layer] Saved bronze for orders (olist_orders_dataset)
+[2025-05-14 15:39:00] [INFO] [etl.silver_layer_transformer] merged all dataset together with shape (1, 7)
+[2025-05-14 15:39:00] [INFO] [etl.silver_layer_transformer] silver layer ready with shape (1, 9)
