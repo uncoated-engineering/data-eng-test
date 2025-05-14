@@ -1,4 +1,4 @@
 .venv/
 .pytest_cache/
 *.lprof
-__pycache__
+*__pycache__
