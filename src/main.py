@@ -1,7 +1,7 @@
 # helloasso_etl/main.py
 
 from etl.bronze_layer import load_csvs, save_bronze
-from etl.silver_layer_transformer import build_silver_layer
+from etl.silver_layer_transformer import build_silver_layer, save_silver
 from etl.gold_aggregator import (
     payment_volume_by_zip,
     payment_volume_by_customer_type,
@@ -33,10 +33,7 @@ def run_pipeline(data_dir: str = "dataset", output_dir: str = "output"):
         raw_data["orders"],
         raw_data["order_payments"]
     )
-    silver_path = Path(output_dir) / "silver"
-    silver_path.mkdir(parents=True, exist_ok=True)
-    for month, group in silver_df.groupby("order_month"):
-        group.to_parquet(silver_path / f"merged_orders_{month}.parquet", index=False)
+    save_silver(output_dir, silver_df)
 
     # Gold: Aggregations
     logger.info("Computing gold indicators...")
@@ -44,15 +41,16 @@ def run_pipeline(data_dir: str = "dataset", output_dir: str = "output"):
     gold_path.mkdir(parents=True, exist_ok=True)
 
     customer_types = classify_customer_types(silver_df)
-    customer_types.to_csv(gold_path/ f"customer_types.csv", index=False)
-
     payment_by_zip = payment_volume_by_zip(silver_df)
-    payment_by_zip.to_csv(gold_path / "payment_by_zip.csv", index=False)
-
     payment_by_customer_type = payment_volume_by_customer_type(silver_df, customer_types)
+
+    payment_by_zip.to_csv(gold_path / "payment_by_zip.csv", index=False)
+    customer_types.to_csv(gold_path/ f"customer_types.csv", index=False)
     payment_by_customer_type.to_csv(gold_path / "payment_by_customer_type.csv", index=False)
 
     logger.info("Pipeline completed.")
+
+
 
 if __name__ == "__main__":
     run_pipeline()

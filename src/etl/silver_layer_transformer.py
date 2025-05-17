@@ -1,8 +1,14 @@
 import pandas as pd
 from utils.logger import get_logger
-
+from pathlib import Path
 logger = get_logger(__name__)
 
+
+def save_silver(output_dir, silver_df):
+    silver_path = Path(output_dir) / "silver"
+    silver_path.mkdir(parents=True, exist_ok=True)
+    for month, group in silver_df.groupby("order_month"):
+        group.to_parquet(silver_path / f"merged_orders_{month}.parquet", index=False)
 
 
 def adjust_payment(df):
